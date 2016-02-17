@@ -56,8 +56,8 @@ beltSalesTax = (double) (beltSalesTax/100);
 // adding all the individuals costs 
 totalCost = ( totalBeltsPrice + totalSweatshirtsPrice + totalPantsPrice);
 //adding all the individual prices. 
-totalTax = (int) (100 * (beltSalesTax + pantsSalesTax + sweatshirtSalesTax));
-totalTax = (double) (totalTax/100);
+totalTax =  (100 * (beltSalesTax + pantsSalesTax + sweatshirtSalesTax));
+
 // cost + tax
 totalAmountPaid= (totalCost + totalTax);
 
